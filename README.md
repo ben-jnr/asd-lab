@@ -1,5 +1,5 @@
 # ASD-LAB
-Web app made as part of ASD-Lab mini project. It is titles scraptrade.
+Web app made as part of ASD-Lab mini project, titled scraptrade.
                 
 ### Technologies Used:
 - React.js
