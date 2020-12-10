@@ -1,0 +1,203 @@
+#AdminWindows {
+    position: absolute;
+    width: 95vw;
+    margin-left: 5vw;
+    height:95vh;
+    margin-top: 60px;
+    overflow: scroll;
+}
+
+#AdminProfileHeading {
+    color:teal;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    margin-top: 4%;
+}
+
+.AdminProfileSubHeading {
+    font-size: 1.1em;
+}
+
+.activeWindow {
+    display: block !important;
+}
+
+#AdminPersonal, #AdminSearch, #AdminApprove {
+    width:100%;
+    color:rgba(0,0,0,0.6);
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;  
+    display:none;
+    font-size: 1.1em !important; 
+    margin-top: 40px;
+}
+
+#AdminScrap {
+    width:100%;
+    color:rgba(0,0,0,0.6);
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;  
+    display:none;
+    font-size: 1.1em !important; 
+}
+
+#AdminPersonalTable{
+    width:40%;
+    margin-left:30% ;
+    border:1.5px solid teal;
+    margin-top:30px;
+}
+
+tr{
+    border-bottom:1px solid rgba(0,128,128,0.2);
+}
+
+.AdminPersonalTableLeft,.AdminPersonalTableRight  {
+    text-align: center;
+}
+
+.NoBorder, tr:nth-last-of-type(1) {
+    border: none;
+}
+
+#AdminSearchTable, #AdminScrapAddTable {
+    width:80%;
+    margin-left:10% ;
+}
+
+
+#AdminSearchSelect{
+    color: rgba(0,0,0,0.6);
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;  
+}
+
+#AdminSearchQuery, .AdminScrapAddInput{
+    color:rgba(0,0,0,0.6) !important;
+    text-align: center;
+}
+
+#AdminSearchQuery::placeholder, .AdminScrapAddInput::placeholder {
+    color:rgba(0,0,0,0.6);
+    opacity: 1;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+}
+
+#AdminApproveTable, #AdminApproveTableEmpty,#AdminSearchResultTable, #AdminSearchResultTableEmpty,
+#AdminScrapTableEmpty {
+    margin-top:30px;
+    margin-bottom:60px;
+    width:80%;
+    margin-left: 10%;
+    text-align: center !important;
+    border:1.5px solid teal !important;
+}
+
+#AdminScrapTable {
+    margin-top:30px;
+    margin-bottom:60px;
+    text-align: center !important;
+    border:1.5px solid teal !important;
+}
+
+#AdminApproveTableEmpty, #AdminScrapTableEmpty{
+    border: none !important;
+    display: none;
+}
+
+.AdminApproveTd {
+    width:16.66% !important;
+}
+
+.AdminApproveBtnTd {
+    width:8.33% !important;
+}
+
+#AdminSearchResultTable{
+    display: none;
+}
+
+#AdminSearchResultTableEmpty, #AdminScrapTableEmpty{
+    border: none !important;
+}
+
+#AdminApproveTable thead, #AdminSearchResultTable thead, #AdminScrapTable thead {
+    border-bottom:1.5px solid teal;
+}
+
+#AdminApproveTable thead tr td,  #AdminApproveTable tbody tr td, 
+    #AdminSearchResultTable thead tr td,  #AdminSearchResultTable tbody tr td,
+    .AdminScrapTableTd,  .AdminScrapTableTd{
+    text-align: center;
+}
+
+.AdminApproveBtn, .AdminScrapBtn {
+    width:fit-content;
+    text-align: center;
+}
+
+#AdminScrapAdd {
+    position: absolute;
+    width:25%;
+    margin-left: 5%;
+}
+
+#AdminScrapList {
+    position: absolute;
+    width:60%;
+    margin-left: 35%;
+}
+
+#AdminScrapAddTable {
+    margin-top:30px;
+    margin-bottom:60px;
+    border:1.5px solid teal !important;
+    padding-bottom:10px;
+}
+
+#AdminScrapAddTable thead tr, #AdminScrapAddTable tbody tr {
+    border:none !important;
+}
+
+.ScrapSubHeading {
+    margin-top:30px;
+}
+
+.AdminScrapTableInput {
+    border:none !important;
+    color:rgba(0,0,0,0.6) !important;
+    text-align: center !important;
+}
+
+.AdminScrapAddTd {
+    width:20%;
+    text-align: center;
+    height: fit-content;
+    margin:0px !important;
+    padding:0px !important;
+}
+
+
+.AdminScrapTableTd, .AdminScrapTableHeadTd {
+    width:20% !important;
+    text-align: center;
+    height: fit-content !important;
+}
+
+.AdminScrapTableTdBtn, .AdminScrapTableHeadTdBtn {
+    width:10% !important;
+    text-align: center;
+    height: fit-content !important;
+}
+
+.AdminScrapTableTdBtn, .AdminScrapTableTd {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+

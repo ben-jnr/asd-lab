@@ -1,0 +1,32 @@
+#Navbar{
+    position:absolute;
+    z-index: 10000;
+    background-color: rgba(0,0,0,0.5);
+    width:100vw !important;
+    height:60px !important; 
+    line-height:60px !important;
+    vertical-align: middle !important;
+}
+
+
+.nav-wrapper {
+    height:60px;
+    width:100vw !important;
+    line-height:50px !important;
+    vertical-align: middle !important;
+}
+
+
+#Logo {
+    height:40px !important;
+    vertical-align: middle !important;
+    padding-left: 2vh;
+}
+
+.hide-on-med-and-down{
+    height:60px;
+    line-height:50px !important;
+    margin-top: 2px !important;
+    vertical-align: middle !important;
+}
+

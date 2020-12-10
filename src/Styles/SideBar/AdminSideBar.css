@@ -1,0 +1,23 @@
+#AdminSideBar {
+    height:95vh;
+    width: 5vw;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    margin-top: 60px;
+}
+
+.SideBarDiv {
+    height:10vh;
+    text-align: center;
+    line-height: 10vh;
+    vertical-align: middle;
+    border-bottom:2px solid rgba(255,255,255,0.6)
+}
+
+.SideBarDiv:hover {
+    background-color: teal;
+}
+
+.activeBar {
+    background-color: teal !important;
+}

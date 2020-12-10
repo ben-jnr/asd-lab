@@ -1,0 +1,76 @@
+#Landing {
+    height:100vh;
+    width:100vw;
+}
+
+
+#LandingText {
+    height:100vh;
+    width:100vw;
+    background:url(../../Images/industry.jpg);
+    background-position: 0px -150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+
+#Heading {
+    color:teal;
+    margin: 0px !important;
+    padding-top: 25vh !important;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+#SubHeading {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 3vh !important;
+    color:rgba(0,0,0,0.5);
+}
+
+
+.modal {
+    margin-top: 100px !important;
+    background-color: rgb(50,50,50) !important;
+    color:rgba(255,255,255,0.6);
+    border-radius: 20px;
+    width:40%;   
+}
+
+
+.modal-dialog,.modal-content,.modal-header,.modal-body,.modal-footer
+{
+    background-color: rgb(50,50,50) !important;
+    text-align: center !important;
+    border: 1px solid transparent !important;
+    margin: 0px !important;
+}
+
+.modal-title{
+    width:100%;
+    text-align: center !important;
+    color:teal;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 5s00;
+}
+
+
+#RegBtn, #RegBtnClose, #LoginBtn, #LoginBtnClose, #AdminLoginBtn, #AdminLoginBtnClose{
+        background-color: teal;
+        color:rgba(255,255,255,1);
+        margin-left: 10px;
+        font-family: 'Kanit', sans-serif;
+        font-weight: 300;
+        border-radius: 3px;
+}
+
+
+input{
+    color:rgba(255,255,255,1) !important;
+}

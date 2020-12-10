@@ -1,0 +1,197 @@
+#IndustryWindows {
+    position: absolute;
+    width: 95vw;
+    margin-left: 5vw;
+    height:95vh;
+    margin-top: 60px;
+    overflow: scroll;
+}
+
+#IndustryProfileHeading {
+    color:teal;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    margin-top: 4%;
+}
+
+#IndustryPersonalAbout {
+    position: absolute;
+    width:20%;
+    margin-left:5%;
+}
+
+.IndustryProfileSubHeading {
+    font-size: 1.1em;
+}
+
+.activeWindow {
+    display: block !important;
+}
+
+#IndustryPersonal, #IndustrySearch {
+    width:100%;
+    color:rgba(0,0,0,0.6);
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;  
+    display:none;
+    font-size: 1.1em !important; 
+    margin-top: 40px;
+}
+
+#IndustryPersonalAboutTable,#IndustryPersonalAvailableTable{
+    border:1.5px solid teal;
+    margin-top:30px;
+}
+
+tr{
+    border-bottom:1px solid rgba(0,128,128,0.2);
+}
+
+.IndustryPersonalAboutTableLeft,.IndustryPersonalAboutTableRight  {
+    text-align: center;
+}
+
+.NoBorder, tr:nth-last-of-type(1) {
+    border: none;
+}
+
+#IndustryPersonalAvailable {
+    width:65%;
+    margin-left: 30%;
+    position: absolute;
+}
+
+#IndustryPersonalAvailableTable thead tr td, #IndustryPersonalAvailableTable tbody tr td{
+    text-align: center;
+}
+
+#IndustrySearchTable {
+    width:80%;
+    margin-left:10% ;
+}
+
+#IndustrySearchSelect{
+    color: rgba(0,0,0,0.6);
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;  
+}
+
+#IndustrySearchQuery{
+    color:rgba(0,0,0,0.6) !important;
+    text-align: center;
+}
+
+#IndustrySearchQuery::placeholder {
+    color:rgba(0,0,0,0.6);
+    opacity: 1;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+}
+
+#IndustrySearchResultTable, #IndustrySearchResultTableEmpty, #IndustryPersonalAvailableTableEmpty{
+    margin-top:30px;
+    margin-bottom:60px;
+    width:80%;
+    margin-left: 10%;
+    text-align: center !important;
+    border:1.5px solid teal !important;
+}
+
+#IndustrySearchResultTable, #IndustryPersonalAvailableTableEmpty{
+    display: none;
+}
+
+#IndustrySearchResultTableEmpty, #IndustryPersonalAvailableTableEmpty{
+    border: none !important;
+}
+
+#IndustrySearchResultTable thead{
+    border-bottom:1.5px solid teal;
+}
+
+#IndustrySearchResultTable thead tr td,  #IndustrySearchResultTable tbody tr td {
+    text-align: center;
+}
+
+#IndustryPersonalTable {
+    margin-top:30px;
+    margin-bottom:60px;
+    text-align: center !important;
+    border:1.5px solid teal !important;
+}
+
+#IndustryPersonalAvailableTable thead {
+    border-bottom:1.5px solid teal !important;
+}
+
+.IndustryAvailableTableInput {
+    border:none !important;
+    color:rgba(0,0,0,0.6) !important;
+    text-align: center !important;
+}
+
+.IndustryAvailableTableTd, .IndustryAvailableTableHeadTd {
+    width:16.66% !important;
+    text-align: center;
+    height: fit-content !important;
+}
+
+.IndustryAvailableTableTdBtn, .IndustryAvailableTableHeadTdBtn {
+    width:8.33% !important;
+    text-align: center;
+    height: fit-content !important;
+}
+
+.IndustryAvailableTableTdBtn, .IndustryAvailableTableTd {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.AddAvailableSubHeading {
+    margin-top:50px;
+}
+
+#IndustryAvailableAddTable {
+    margin-top:30px;
+    margin-bottom:60px;
+    border:1.5px solid teal !important;
+    padding-bottom:10px;
+}
+
+#IndustryAvailableAddTable tbody tr {
+    border:none !important;
+}
+
+.IndustryAvailableAddInput {
+    color:rgba(0,0,0,0.6) !important;
+    text-align: center !important;
+}
+
+.IndustryAvailableAddInput::placeholder {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    color:rgba(0,0,0,1) !important;
+    text-align: center !important;
+}
+
+#IndustryAvailableAddSelect {
+    color:rgba(0,0,0,0.6) !important;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+}
+
+.IndustryAvailableAddTd {
+    width:20%;
+    text-align: center;
+    height: fit-content;
+    margin:0px !important;
+    padding:0px !important;
+}
+
+#IndustryPersonalAvailableTable, #IndustryPersonalAvailableTableEmpty {
+    display:none;
+}
